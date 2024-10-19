@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2874f0;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+}
+
+.option {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Main Banner */
+.main-banner {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Category Section */
+.category-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+}
+
+.category-box {
+    text-align: center;
+}
+
+.category-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* Deal Section */
+.deal-section {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.deal-box {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.deal-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #ccc;
+}
